@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+    font-family: Baskerville Old Face;
+    font-size: 24px;
+}
+
+body {
+    background-color: rgb(208, 255, 255);
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.vin {
+    background-color: rgb(48, 48, 48);
+    border: 20px solid black;
+    color: white;
+    padding: 10px;
+    border-radius: 4%;
+}
+
+.row input {
+    padding: 8px;
+    width: 92%;
+    outline: none;
+    border: none;
+    font-size: large;
+}
+
+.btn {
+    padding: 20px;
+    margin: 0 2px;
+    border: 2px solid rgb(19, 16, 16);
+    background-color: rgb(193, 193, 231);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: large;
+}
+
+.ni {
+    padding: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+    font-size: large;
+    border: 2px solid rgb(19, 16, 16);
+    border-radius: 20%;
+    background-color: rgb(253, 175, 58);
+}
+
+.ni:hover {
+    background-color: rgb(247, 214, 68);
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.row {
+    margin: 8px 0px;
+}
+.mom{
+    padding: 20px;
+    margin: 0 2px;
+    border: 2px solid rgb(19, 16, 16);
+    background-color: rgb(193, 193, 231);
+    width: 120px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.mom:hover {
+    background-color: white;
+    color: black;
+}
+.mom1{
+    padding: 20px;
+    margin: 0 2px;
+    border: 2px solid rgb(19, 16, 16);
+    background-color: rgb(193, 193, 231);
+    width: 177px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.mom1:hover {
+    background-color: white;
+    color: black;
+}
